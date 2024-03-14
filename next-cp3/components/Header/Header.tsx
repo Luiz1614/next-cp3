@@ -1,8 +1,13 @@
+import './Style.css';
+
 const Header = () => {
     return (
         <>
             <header>
-                <p>Aqui vai o header</p>
+                <div className="Header">
+                    <img className = "imagem-header" src="/imagemLogo.png" alt="" />
+                    <h1 className = "titulo-header">Os melhores filmes estão aqui!</h1>
+                </div>
             </header>
         </>
     )

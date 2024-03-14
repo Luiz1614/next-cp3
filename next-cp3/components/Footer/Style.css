@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-footer{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
