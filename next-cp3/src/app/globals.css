@@ -16,9 +16,16 @@
   }
 }
 
-body {
+body{}
 
+.flex-auto{
+  display: flex;
+  margin-left: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 @layer utilities {
   .text-balance {
